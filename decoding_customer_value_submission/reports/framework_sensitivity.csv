@@ -1,0 +1,4 @@
+weight_set,w_tenure,w_subscription,w_no_discount,champion_count,growth_count,casual_count,pct_tier_shift_vs_baseline
+baseline_50_30_20,0.5,0.3,0.2,586,2163,1151,0.44
+heavy_tenure_60_25_15,0.6,0.25,0.15,742,1902,1256,9.08
+heavy_sub_40_35_25,0.4,0.35,0.25,311,2507,1082,14.59

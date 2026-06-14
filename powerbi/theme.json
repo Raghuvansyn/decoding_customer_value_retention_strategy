@@ -1,0 +1,84 @@
+{
+  "name": "Obsidian Slate Dark Mode",
+  "dataColors": [
+    "#10B981",
+    "#3B82F6",
+    "#F43F5E",
+    "#F59E0B",
+    "#64748B",
+    "#8B5CF6",
+    "#EC4899",
+    "#14B8A6"
+  ],
+  "background": "#0F172A",
+  "foreground": "#F8FAFC",
+  "tableAccent": "#3B82F6",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#1E293B" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#000000" } },
+            "position": "Outer",
+            "preset": "Custom",
+            "angle": 135,
+            "distance": 4,
+            "blur": 8,
+            "transparency": 60
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#F8FAFC" } },
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 12,
+            "alignment": "Left"
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#F8FAFC" } },
+            "fontFamily": "DIN",
+            "fontSize": 36
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#94A3B8" } },
+            "fontFamily": "Segoe UI",
+            "fontSize": 9
+          }
+        ]
+      }
+    },
+    "categoryCard": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#F8FAFC" } },
+            "fontFamily": "DIN",
+            "fontSize": 36
+          }
+        ]
+      }
+    }
+  }
+}
